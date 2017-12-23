@@ -40,9 +40,11 @@ Key			 - keyword in word with first character in uppercase
 KEY			 - keyword in word with all characters in uppercase
 
 kEy			 - keyword in word with camelcase
+```
 
 And supported regexp:
 
+```
 \d			 - digit char
 
 [a-z]		 - lowercase character (NOT SUPPORTED)
