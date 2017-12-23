@@ -27,7 +27,7 @@ keyword := "winter"
 word := "winter18"
 
 // Mask is the mask, err is the error.
-mask, err := mask.CreateMask(code, key)
+mask, err := mask.CreateMask(word, keyword)
 ```
 Examples of mask: key\d\d, \d\dkey[a-z][A-Z]
 Be careful, the system is case sensitive. And in result may give diffrent keys:
