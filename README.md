@@ -1,5 +1,6 @@
 # Mask
 ![alt text](https://github.com/vysheradugi4/mask/blob/master/Gomask.png)
+
 This is generator contains two steps:
 1. Create mask from exists word with use keyword (part of word) replace keyword to
 'key'.
