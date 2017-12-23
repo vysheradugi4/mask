@@ -32,15 +32,23 @@ mask, err := mask.CreateMask(code, key)
 Examples of mask: key\d\d, \d\dkey[a-z][A-Z]
 Be careful, the system is case sensitive. And in result may give diffrent keys:
 
-key			keyword in word in lowercase
-Key			keyword in word with first character in uppercase
-KEY			keyword in word with all characters in uppercase
-kEy			keyword in word with camelcase
+```
+key			 - keyword in word in lowercase
+
+Key			 - keyword in word with first character in uppercase
+
+KEY			 - keyword in word with all characters in uppercase
+
+kEy			 - keyword in word with camelcase
 
 And supported regexp:
-\d			digit char
-[a-z]		lowercase character (NOT SUPPORTED)
-[A-Z]		uppercase character (NOT SUPPORTED)
+
+\d			 - digit char
+
+[a-z]		 - lowercase character (NOT SUPPORTED)
+
+[A-Z]		 - uppercase character (NOT SUPPORTED)
+```
 
 
 2. Creating codes, now its easy:
